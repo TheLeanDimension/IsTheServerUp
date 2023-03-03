@@ -1,0 +1,13 @@
+
+.continueButton{
+    width: 20%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: #252525;
+    border-color: #AFABAB;
+    border-radius: 15px;
+    border-width: 3px;
+    border: solid;
+    color: #AFABAB;
+
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/jpeg" sizes="640x640" href="resources/icon640.jpeg"> <!-- ik this is an awful icon tag but idc about it -->
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/home.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono">
+        <script src="js/getStatus.js"></script>
+        <title>DEFCON • Version Info</title>
+        <style>
+            *{font-family: "Roboto Mono";}
+        </style>
+    </head>
+    <body>
+        <div class="mainDiv">
+            <center>
+                <h1>DEFCON • Is The Server Up?</h1>
+                <h1>Version 1.0.0 BETA web</h1>
+                <br>
+
+                <input type="text" id="serverAddr" class="serverAddrInput" placeholder="Server Address" required>
+                <button onclick="getServerStatus()" class="statusCheckButton">Get Status</button>
+                <br>
+                
+                <h2>Online =>  <span id="serverStatus"></span></h2>
+                <h2>IP =>  <span id="serverIP"></span></h2>
+                <h2>Port =>  <span id="serverPort"></span></h2>
+                <h2>Player Count =>  <span id="playerCount"></span></h2>
+                <h2>Player Names =>  <span id="PlayerNames"></span></h2>
+            </center>
+        </div>
+    </body>
+</html>
